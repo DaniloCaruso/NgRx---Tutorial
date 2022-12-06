@@ -4,14 +4,14 @@ import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './counter.reducer';
 
 import { AppComponent } from './app.component';
+import { MyCounterComponent } from './my-counter/my-counter.component';
 
 @NgModule({
-  imports: [BrowserModule, StoreModule.forRoot(count: counterReducer)],
-  declarations: [AppComponent],
+  imports: [BrowserModule, StoreModule.forRoot({ count: counterReducer })],
+  declarations: [AppComponent, MyCounterComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
-
 
 /*
 Use of this source code is governed by an MIT-style license that

@@ -1,3 +1,3 @@
 # NgRx---Tutorial
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-pyyuxy)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/ngrxtutorial-1234567890)
